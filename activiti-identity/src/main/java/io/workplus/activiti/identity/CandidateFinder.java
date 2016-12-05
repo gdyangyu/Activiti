@@ -1,5 +1,7 @@
 package io.workplus.activiti.identity;
 
+import java.util.Set;
+
 /**
  * 角色查找接口，查找担任指定角色的人
  * Created by yyang on 2016/12/2.
@@ -44,6 +46,6 @@ public interface CandidateFinder {
      * @param role 角色
      * @return 如果orgId代表的机构含有角色role，返回担任该角色的人员用户名；如果本机构不包含该角色，则向上级机构查找，直至顶级机构。如最终没有找到，返回空数组。
      */
-    String[] hasRole(String orgId, String role);
+    Set<String> hasRole(String orgId, String role);
 
 }

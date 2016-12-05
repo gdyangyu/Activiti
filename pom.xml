@@ -634,7 +634,8 @@
     <module>modules/activiti-image-generator</module>
     <module>modules/activiti-bpmn-converter</module>
     <module>modules/activiti-engine</module>
-      <module>activiti-identity</module>
+    <module>activiti-identity</module>
+    <module>activiti-engine-workplus</module>
   </modules>
 
   <build>
