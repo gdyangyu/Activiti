@@ -1,4 +1,4 @@
-package io.workplus.activiti.admin;
+package io.workplus.engine.admin;
 
 /**
  * Created by yyang on 2016/12/5.
