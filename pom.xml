@@ -633,8 +633,14 @@
     <module>modules/activiti-bpmn-layout</module>
     <module>modules/activiti-image-generator</module>
     <module>modules/activiti-bpmn-converter</module>
+    <module>modules/activiti-json-converter</module>
     <module>modules/activiti-engine</module>
     <module>activiti-engine-workplus</module>
+    <module>modules/activiti-common-rest</module>
+    <module>modules/activiti-rest</module>
+    <module>modules/activiti-explorer</module>
+    <module>modules/activiti-webapp-rest2</module>
+    <module>modules/activiti-webapp-explorer2</module>
   </modules>
 
   <build>

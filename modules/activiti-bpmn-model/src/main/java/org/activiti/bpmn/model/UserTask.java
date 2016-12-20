@@ -34,6 +34,8 @@ public class UserTask extends Task {
   protected String extensionId;
   protected List<String> candidateUsers = new ArrayList<String>();
   protected List<String> candidateGroups = new ArrayList<String>();
+  protected List<String> candidateRoles = new ArrayList<String>();
+  protected List<String> candidateBosses = new ArrayList<String>();
   protected List<FormProperty> formProperties = new ArrayList<FormProperty>();
   protected List<ActivitiListener> taskListeners = new ArrayList<ActivitiListener>();
   protected String skipExpression;
